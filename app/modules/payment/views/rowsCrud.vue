@@ -16,7 +16,7 @@ const { t } = useI18n();
 const columns = [
 	{ accessorKey: 'stay.period', header: t('payment.columns.stay') },
 	{ accessorKey: 'stay.vehicle.license_plate', header: t('payment.columns.vehicle') },
-	{ accessorKey: 'amount', header: t('payment.columns.amount') },
-	{ accessorKey: 'date', header: t('payment.columns.date') },
+	{ accessorKey: '_amount', header: t('payment.columns.amount') },
+	{ accessorKey: '_date', header: t('payment.columns.date') },
 ];
 </script>
