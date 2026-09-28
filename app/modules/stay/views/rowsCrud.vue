@@ -14,8 +14,8 @@ import { mockStays } from '../../../mocks/mockData';
 const { t } = useI18n();
 
 const columns = [
-	{ accessorKey: 'user_id', header: t('stay.columns.user') },
-	{ accessorKey: 'vehicle_id', header: t('stay.columns.vehicle') },
+	{ accessorKey: 'user._full_name', header: t('stay.columns.user') },
+	{ accessorKey: 'vehicle.license_plate', header: t('stay.columns.vehicle') },
 	{ accessorKey: 'start_date', header: t('stay.columns.startDate') },
 	{ accessorKey: 'end_date', header: t('stay.columns.endDate') },
 ];

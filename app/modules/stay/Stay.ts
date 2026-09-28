@@ -1,7 +1,12 @@
+import type User from '../user/User';
+import type Vehicle from '../vehicle/Vehicle';
+
 export default class Stay {
 	public id?: number;
 	public user_id!: number;
 	public vehicle_id!: number;
+	public user?: User;
+	public vehicle?: Vehicle;
 	public start_date!: string;
 	public end_date!: string;
 

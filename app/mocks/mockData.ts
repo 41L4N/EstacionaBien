@@ -28,6 +28,18 @@ export const mockStays = [
 	new Stay({ id: 6, user_id: 1, vehicle_id: 1, start_date: '2026-09-23 11:00', end_date: '2026-09-23 13:00' }),
 ];
 
+for (const stay of mockStays) {
+	const user = mockUsers.find(({ id }) => id === stay.user_id);
+	const vehicle = mockVehicles.find(({ id }) => id === stay.vehicle_id);
+
+	if (!user || !vehicle) {
+		throw new Error(`Missing user or vehicle for stay ${stay.id}`);
+	}
+
+	stay.user = user;
+	stay.vehicle = vehicle;
+}
+
 export const mockPayments = [
 	new Payment({ id: 1, stay_id: 1, amount: 50, date: '2026-09-20 11:30' }),
 	new Payment({ id: 2, stay_id: 2, amount: 35, date: '2026-09-20 12:00' }),
