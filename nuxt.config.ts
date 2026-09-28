@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/i18n'],
+	components: [
+		{ path: '../plugins/ui', pathPrefix: false },
+	],
 	css: ['~/assets/css/main.css'],
 	i18n: {
 		defaultLocale: 'es',
@@ -40,4 +43,4 @@ export default defineNuxtConfig({
 	},
 	compatibilityDate: '2025-07-15',
 	devtools: { enabled: true },
-})
+});

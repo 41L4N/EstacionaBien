@@ -8,6 +8,9 @@
 	"user": {
 		"title": "User"
 	},
+	"table": {
+		"empty": "No records to display."
+	},
 	"vehicle": {
 		"title": "Vehicle"
 	},
