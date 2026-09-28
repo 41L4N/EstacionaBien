@@ -1,5 +1,6 @@
 export default class Payment {
 	public id?: number;
+	public stay_id!: number;
 	public amount!: number;
 	public date!: string;
 
