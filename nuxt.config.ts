@@ -1,12 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ['@nuxt/eslint', '@nuxt/ui'],
+	modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/i18n'],
 	css: ['~/assets/css/main.css'],
+	i18n: {
+		defaultLocale: 'es',
+		langDir: 'locales',
+		locales: [
+			{ code: 'es', language: 'es-ES', file: 'es.json' },
+			{ code: 'en', language: 'en-US', file: 'en.json' },
+		],
+		strategy: 'no_prefix',
+		detectBrowserLanguage: {
+			useCookie: true,
+			cookieKey: 'estacionabien_locale',
+			redirectOn: 'root',
+			fallbackLocale: 'es',
+		},
+	},
 	app: {
 		head: {
-			htmlAttrs: {
-				lang: 'es',
-			},
 			title: 'EstacionaBien',
 			titleTemplate: '%s | EstacionaBien',
 			link: [
