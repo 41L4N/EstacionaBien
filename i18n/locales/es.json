@@ -2,22 +2,50 @@
 	"home": {
 		"title": "EstacionaBien"
 	},
+	"common": {
+		"selectLanguage": "Seleccionar idioma",
+		"languages": {
+			"es": "Español",
+			"en": "Inglés"
+		}
+	},
 	"dashboard": {
 		"title": "Dashboard"
 	},
 	"user": {
-		"title": "Usuario"
+		"title": "Usuario",
+		"columns": {
+			"fullName": "Nombre completo",
+			"email": "Correo",
+			"phone": "Teléfono"
+		}
 	},
 	"table": {
 		"empty": "No hay registros para mostrar."
 	},
 	"vehicle": {
-		"title": "Vehículo"
+		"title": "Vehículo",
+		"columns": {
+			"brand": "Marca",
+			"model": "Modelo",
+			"licensePlate": "Placa"
+		}
 	},
 	"stay": {
-		"title": "Estadías"
+		"title": "Estadías",
+		"columns": {
+			"user": "Usuario",
+			"vehicle": "Vehículo",
+			"startDate": "Inicio",
+			"endDate": "Fin"
+		}
 	},
 	"payment": {
-		"title": "Pagos"
+		"title": "Pagos",
+		"columns": {
+			"stay": "Estadía",
+			"amount": "Monto",
+			"date": "Fecha"
+		}
 	}
 }

@@ -14,8 +14,8 @@ import { mockVehicles } from '../../../mocks/mockData';
 const { t } = useI18n();
 
 const columns = [
-	{ accessorKey: 'brand', header: 'Marca' },
-	{ accessorKey: 'model', header: 'Modelo' },
-	{ accessorKey: 'license_plate', header: 'Placa' },
+	{ accessorKey: 'brand', header: t('vehicle.columns.brand') },
+	{ accessorKey: 'model', header: t('vehicle.columns.model') },
+	{ accessorKey: 'license_plate', header: t('vehicle.columns.licensePlate') },
 ];
 </script>

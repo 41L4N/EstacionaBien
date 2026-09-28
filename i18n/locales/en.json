@@ -2,22 +2,50 @@
 	"home": {
 		"title": "EstacionaBien"
 	},
+	"common": {
+		"selectLanguage": "Select language",
+		"languages": {
+			"es": "Spanish",
+			"en": "English"
+		}
+	},
 	"dashboard": {
 		"title": "Dashboard"
 	},
 	"user": {
-		"title": "User"
+		"title": "User",
+		"columns": {
+			"fullName": "Full name",
+			"email": "Email",
+			"phone": "Phone"
+		}
 	},
 	"table": {
 		"empty": "No records to display."
 	},
 	"vehicle": {
-		"title": "Vehicle"
+		"title": "Vehicle",
+		"columns": {
+			"brand": "Brand",
+			"model": "Model",
+			"licensePlate": "License plate"
+		}
 	},
 	"stay": {
-		"title": "Stays"
+		"title": "Stays",
+		"columns": {
+			"user": "User",
+			"vehicle": "Vehicle",
+			"startDate": "Start",
+			"endDate": "End"
+		}
 	},
 	"payment": {
-		"title": "Payments"
+		"title": "Payments",
+		"columns": {
+			"stay": "Stay",
+			"amount": "Amount",
+			"date": "Date"
+		}
 	}
 }

@@ -17,8 +17,8 @@ const { t } = useI18n();
 const rows = ref(mockUsers);
 
 const columns = [
-	{ accessorKey: '_full_name', header: 'Nombre completo' },
-	{ accessorKey: 'email', header: 'Correo' },
-	{ accessorKey: 'phone', header: 'Teléfono' },
+	{ accessorKey: '_full_name', header: t('user.columns.fullName') },
+	{ accessorKey: 'email', header: t('user.columns.email') },
+	{ accessorKey: 'phone', header: t('user.columns.phone') },
 ];
 </script>

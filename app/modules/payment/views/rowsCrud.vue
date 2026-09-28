@@ -14,8 +14,8 @@ import { mockPayments } from '../../../mocks/mockData';
 const { t } = useI18n();
 
 const columns = [
-	{ accessorKey: 'stay_id', header: 'Estadía' },
-	{ accessorKey: 'amount', header: 'Monto' },
-	{ accessorKey: 'date', header: 'Fecha' },
+	{ accessorKey: 'stay_id', header: t('payment.columns.stay') },
+	{ accessorKey: 'amount', header: t('payment.columns.amount') },
+	{ accessorKey: 'date', header: t('payment.columns.date') },
 ];
 </script>

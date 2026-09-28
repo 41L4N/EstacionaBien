@@ -33,7 +33,7 @@
 					:model-value="locale"
 					:items="localeOptions"
 					value-key="value"
-					aria-label="Seleccionar idioma"
+					:aria-label="t('common.selectLanguage')"
 					@update:model-value="setLocale"
 				/>
 			</template>
@@ -44,10 +44,10 @@
 
 <script setup lang="ts">
 const { t, locale, setLocale } = useI18n();
-const localeOptions = [
-	{ label: 'Español', value: 'es' as const },
-	{ label: 'English', value: 'en' as const },
-];
+const localeOptions = computed(() => [
+	{ label: t('common.languages.es'), value: 'es' as const },
+	{ label: t('common.languages.en'), value: 'en' as const },
+]);
 const menuItems = computed(() => [
 	{ name: 'dashboard', label: t('dashboard.title'), to: { name: 'dashboard' } },
 	{ name: 'user', label: t('user.title'), to: { name: 'user' } },
