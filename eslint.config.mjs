@@ -15,7 +15,7 @@ export default withNuxt(
 				ignoredNodes: ['TemplateLiteral'],
 			}],
 			'quotes': ['error', 'single', { avoidEscape: true }],
-			'semi': ['error', 'never'],
+			'semi': ['error', 'always'],
 			'comma-dangle': ['error', 'always-multiline'],
 			'object-curly-spacing': ['error', 'always'],
 			'array-bracket-spacing': ['error', 'never'],
