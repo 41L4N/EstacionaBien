@@ -1,5 +1,20 @@
 {
 	"home": {
-		"welcome": "Welcome to EstacionaBien"
+		"title": "EstacionaBien"
+	},
+	"dashboard": {
+		"title": "Dashboard"
+	},
+	"user": {
+		"title": "User"
+	},
+	"vehicle": {
+		"title": "Vehicle"
+	},
+	"stay": {
+		"title": "Stays"
+	},
+	"payment": {
+		"title": "Payments"
 	}
 }
