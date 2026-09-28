@@ -48,3 +48,13 @@ export const mockPayments = [
 	new Payment({ id: 5, stay_id: 5, amount: 50, date: '2026-09-22 12:15' }),
 	new Payment({ id: 6, stay_id: 6, amount: 40, date: '2026-09-23 13:00' }),
 ];
+
+for (const payment of mockPayments) {
+	const stay = mockStays.find(({ id }) => id === payment.stay_id);
+
+	if (!stay) {
+		throw new Error(`Missing stay for payment ${payment.id}`);
+	}
+
+	payment.stay = stay;
+}

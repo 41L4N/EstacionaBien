@@ -44,6 +44,7 @@
 		"title": "Payments",
 		"columns": {
 			"stay": "Stay",
+			"vehicle": "Vehicle",
 			"amount": "Amount",
 			"date": "Date"
 		}

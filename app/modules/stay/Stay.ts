@@ -9,8 +9,10 @@ export default class Stay {
 	public vehicle?: Vehicle;
 	public start_date!: string;
 	public end_date!: string;
+	public period!: string;
 
 	constructor(data: Partial<Stay> = {}) {
 		Object.assign(this, data);
+		this.period = [this.start_date, this.end_date].filter(Boolean).join(' - ');
 	}
 }

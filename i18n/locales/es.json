@@ -44,6 +44,7 @@
 		"title": "Pagos",
 		"columns": {
 			"stay": "Estadía",
+			"vehicle": "Vehículo",
 			"amount": "Monto",
 			"date": "Fecha"
 		}
