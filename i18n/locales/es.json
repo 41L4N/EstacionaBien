@@ -10,7 +10,26 @@
 		}
 	},
 	"dashboard": {
-		"title": "Dashboard"
+		"title": "Dashboard",
+		"subtitle": "Resumen de ingresos, estadías y movimientos del estacionamiento.",
+		"period": "Filtrar actividad",
+		"allRecords": "Todos los registros",
+		"lastThreeDays": "Últimos 3 días con actividad",
+		"totalRevenue": "Ingresos registrados",
+		"paymentsRecorded": "{count} pagos registrados",
+		"totalStays": "Estadías",
+		"staysRecorded": "Estadías en el periodo",
+		"averageTicket": "Ticket promedio",
+		"revenue": "Ingresos por día",
+		"revenueDescription": "Distribución de pagos · {total} en total",
+		"noRevenue": "Todavía no hay ingresos registrados.",
+		"vehicleActivity": "Actividad por vehículo",
+		"vehicleActivityDescription": "Vehículos con más estadías en el periodo",
+		"staysCount": "estadías",
+		"noVehicleActivity": "Todavía no hay actividad de vehículos.",
+		"frequentCustomers": "Clientes frecuentes",
+		"frequentCustomersDescription": "{count} clientes con estadías en el periodo",
+		"noCustomerActivity": "Todavía no hay actividad de clientes."
 	},
 	"user": {
 		"title": "Usuario",

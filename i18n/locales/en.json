@@ -10,7 +10,26 @@
 		}
 	},
 	"dashboard": {
-		"title": "Dashboard"
+		"title": "Dashboard",
+		"subtitle": "A snapshot of parking revenue, stays, and recent activity.",
+		"period": "Filter activity",
+		"allRecords": "All records",
+		"lastThreeDays": "Last 3 active days",
+		"totalRevenue": "Recorded revenue",
+		"paymentsRecorded": "{count} payments recorded",
+		"totalStays": "Stays",
+		"staysRecorded": "Stays in period",
+		"averageTicket": "Average ticket",
+		"revenue": "Revenue by day",
+		"revenueDescription": "Payment breakdown · {total} total",
+		"noRevenue": "There is no revenue recorded yet.",
+		"vehicleActivity": "Activity by vehicle",
+		"vehicleActivityDescription": "Vehicles with the most stays in this period",
+		"staysCount": "stays",
+		"noVehicleActivity": "There is no vehicle activity yet.",
+		"frequentCustomers": "Frequent customers",
+		"frequentCustomersDescription": "{count} customers with stays in this period",
+		"noCustomerActivity": "There is no customer activity yet."
 	},
 	"user": {
 		"title": "User",
